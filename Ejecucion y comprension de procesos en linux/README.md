@@ -633,9 +633,10 @@
         └─zed───2*[{zed}]
     ```
 18. Ejecuta top o htop y localiza el proceso con mayor uso de CPU.
+
     ```
-   PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU  %MEM     HORA+ ORDEN    
-  18147 dam       20   0   11,5g 601616 317212 S  31,9   1,9   0:31.40 firefox+ 
+       PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU  %MEM     HORA+ ORDEN    
+      18147 dam       20   0   11,5g 601616 317212 S  31,9   1,9   0:31.40 firefox+ 
     ```
 19. Ejecuta sleep 100 en segundo plano y busca su PID con ps.
     ```
